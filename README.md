@@ -21,7 +21,7 @@
 			|type		|string	    |是		        |媒体类型，主要分为图片或者视频,image | video
 			|bucket		|string	    |是		        |上传的命名空间名称,test1|test2 
 			|key		|string	    |是		        |上传至cdn的uri名称（比如key如果为upload/test，上传成功后的访问url为http://xxxxx/upload/test）,首字符不能为/
-			|file			        |是		        |要上传的文件
+			|file			    |是		        |要上传的文件
 
 	    ### 返回说明：
 		    eg:
@@ -34,7 +34,7 @@
 			]		
 		
 		### 返回参数:
-			|参数名称       |类型               |描述
-			|status		    |int	            |返回状态码，0 成功，1 失败	
-			|data		    |string	            |返回url，成功返回具体的访问url地址，失败返回空
-			|message		|string	            |上传成功或者失败的具体信息。
+			|参数名称		|类型               |描述
+			|status		   |int	               |返回状态码，0 成功，1 失败	
+			|data		   |string	       |返回url，成功返回具体的访问url地址，失败返回空
+			|message	   |string	       |上传成功或者失败的具体信息。
